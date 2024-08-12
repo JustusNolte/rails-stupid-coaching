@@ -1,0 +1,9 @@
+<h1>Coach's Response</h1>
+
+<p>Your question: <%= @question %></p>
+<p>Coach's answer: <%= @answer %></p>
+
+<!-- Center the button below the answer -->
+<div class="text-center" style="margin-top: 20px;">
+  <%= link_to 'Ask another question', question_ask_path, class: "btn btn-primary" %>
+</div>
